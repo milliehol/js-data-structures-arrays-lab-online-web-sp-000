@@ -13,7 +13,7 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift(name);
 }
 function appendDriver(name){
-  drivers.push(name);
+  nDriver = [...drivers, name];
 }
 function prependDriver(name){
   drivers.push(name);
