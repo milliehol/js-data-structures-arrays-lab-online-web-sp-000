@@ -16,7 +16,7 @@ function appendDriver(name){
   const nDriver = [...drivers, name];
 }
 function prependDriver(name){
-  const nDriver = [name, ...drivers];
+  nDriver = [name, ...drivers];
 }
 function removeLastDriver(){
   drivers.slice(0, 2);
