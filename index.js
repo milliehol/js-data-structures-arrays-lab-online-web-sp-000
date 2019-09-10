@@ -3,19 +3,19 @@ let drivers = ["Milo", "Otis", "Garfield"];
 function destructivelyAppendDriver(name){
   drivers.push(name);
 }
-function destructivelyAppendDriver(name){
+function destructivelyPrependDriver(name){
   drivers.push(name);
 }
-function destructivelyAppendDriver(name){
+function destructivelyRemoveLastDriver(){
   drivers.push(name);
 }
-function destructivelyAppendDriver(name){
-  drivers.push(name);
-}
-function appendDriver(name){
+function destructivelyRemoveFirstDriver(){
   drivers.push(name);
 }
 function appendDriver(name){
+  drivers.push(name);
+}
+function prependDriver(name){
   drivers.push(name);
 }
 function removeLastDriver(){
