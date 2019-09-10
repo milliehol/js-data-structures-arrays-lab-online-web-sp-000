@@ -18,11 +18,14 @@ function appendDriver(name){
   return nDriver;
 }
 function prependDriver(name){
-  nDriver = [name, ...drivers];
+  const nDriver = [name, ...drivers];
+  return nDriver;
 }
 function removeLastDriver(){
-  drivers = drivers.slice(0, 2);
+  const nDriver = drivers.slice(0, 2);
+  return nDriver;
 }
 function removeFirstDriver(){
-  drivers.slice(1);
+  const nDriver = drivers.slice(1);
+  return nDriver;
 }
